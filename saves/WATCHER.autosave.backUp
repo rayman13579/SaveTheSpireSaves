@@ -1,1 +1,445 @@
-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FklzS0VZSx5zS0VZS0VZSRAJDBcYDwAKSV9ZW0lzS0VZS0VZSQgQGAZbUUVJR29ZS0VZS0VbAgFbUUVbOBELAg4cNDVbYUVZS0UER29ZS0VZEG9ZS0VZS0VbHhUeGQQdDhZbUUVJR29ZS0VZS0VbBgwKCEdDS1VVYUVZS0VZS0cQD0dDS0cqHxcQAAAmO0dzS0VZSxhVYUVZS0UCYUVZS0VZS0cMGwILCgEcGEdDS1VVYUVZS0VZS0cUAhYaSV9ZW0lzS0VZS0VZSQwdSV9ZSTYNGQwSDjopSW9ZS0VZFklzS0VZSx5zS0VZS0VZSRAJDBcYDwAKSV9ZW0lzS0VZS0VZSQgQGAZbUUVJR29ZS0VZS0VbAgFbUUVbLwAfDgsdNDVbYUVZS0UER29ZS0VZEG9ZS0VZS0VbHhUeGQQdDhZbUUVJR29ZS0VZS0VbBgwKCEdDS1VVYUVZS0VZS0cQD0dDS0c9DgMcBQEmO0dzS0VZSxhVYUVZS0UCYUVZS0VZS0cMGwILCgEcGEdDS1VVYUVZS0VZS0cUAhYaSV9ZW0lzS0VZS0VZSQwdSV9ZSSEcDQAXDzopSW9ZS0VZFklzS0VZSx5zS0VZS0VZSRAJDBcYDwAKSV9ZW0lzS0VZS0VZSQgQGAZbUUVJR29ZS0VZS0VbAgFbUUVbLwAfDgsdNDVbYUVZS0UER29ZS0VZEG9ZS0VZS0VbHhUeGQQdDhZbUUVIR29ZS0VZS0VbBgwKCEdDS1VVYUVZS0VZS0cQD0dDS0c8GRAJHwwWBUdzS0VZSxhVYUVZS0UCYUVZS0VZS0cMGwILCgEcGEdDS1VVYUVZS0VZS0cUAhYaSV9ZW0lzS0VZS0VZSQwdSV9ZSTMQDAwVCgsaDkdzS0VZSxhVYUVZS0UCYUVZS0VZS0cMGwILCgEcGEdDS1VVYUVZS0VZS0cUAhYaSV9ZW0lzS0VZS0VZSQwdSV9ZSSAUGxEALQwKH0dzS0VZSxhzS0UkR29ZS0ccBQEVDhYKNAwXCBccBgAXHxZbUUUiNklzS0VbBgANGQwaNAwNDggKNBUMGQIcD0dDSz4kR29ZS0cJHhceDiYWGBFbUUVOXklzS0VbGQoWBjoBSV9ZXklzS0VbCQkQDA0NNAYWHgsNDhcKSV9ZMDhVYUVZSRcWBAgmEkdDS1dVYUVZSQgcHxcQCDoeBAkdNBUcGTofBwoWGUdDSz5zS0VZS1dIUklzS0VZS1dIUm9ZSzhVYUVZSQgcHxcQCDoJBBEQBAsKNAMVBAoLNBAKCgIcSV9ZMDhVYUVZSQcWGBYmBwwKH0dDSz5zS0VZS0ctAwBZLBAYGQEQCgtbR29ZS0VZSS0cEwQeAwoKH0dVYUVZS0VbOAkQBgBZKQoKGEdzS0UkR29ZS0cYAjoKDgAdNAYWHgsNSV9ZW0lzS0VbDhMcBREmCA0YBQYcGEdDSz5zS0VZS1VXWklzS0VZS1VXWUlzS0VZS1VXW1NVYUVZS0VJRVVNYUVZNklzS0VbBgANGQwaNAcWGBYmGQAVAgYKSV9ZMDhVYUVZSRccBwwaNBYcDgEmCAoMBRFbUUVMR29ZS0cYCBEmBRAUSV9ZWklzS0VbBgANGQwaNAEYBgQeDjoNCg4cBUdDSz5zS0VZSx5zS0VZS0VZSQEYBgQeDkdDS1VXW0lzS0VZS0VZSQAXDggQDhZbUUVbKBAVHwwKH0dVYUVZS0VZS0cfBwoWGUdDS1RXW0lzS0VZS0VZSREMGQsKSV9ZWUtJYUVZS0UER29ZS0VZEG9ZS0VZS0VbDwQUCgIcSV9ZWElzS0VZS0VZSQAXDggQDhZbUUVbIQQOSzIWGQhbR29ZS0VZS0VbDQkWBBdbUUVKR29ZS0VZS0VbHxALBRZbUUVKYUVZS0UEYUVZNklzS0VbDBccDgtbUUVJR29ZS0cUEhYNDhcANAgYCA0QBQBbUUVLR29ZS0cUDhELAgYmCAQUGwMQGQAmHhUeGQQdDgFbUUVJR29ZS0cJBBEQBAsmGAkWHxZbUUVKR29ZS0caAwoKDjoXDgoONBccHAQLD0dDSwMYBxYcR29ZS0ccHQAXHzoKDgAdNAYWHgsNSV9ZWklzS0VbBgANGQwaNBccBwwaGDoWCREYAgscD0dDSz4kR29ZS0cdCgwVEjodChEcSV9ZW0lzS0VbBAcNCgwXDgEmCAQLDxZbUUUCYUVZS0VbLggJHxw/AhYNSV9ZWm9ZSxhVYUVZSRUVChwmHwwUDkdDS1JMR29ZS0cRCgsdNBYQEQBbUUVMR29ZS0cUCh0mAwAYBxERSV9ZXFdVYUVZSQgWBRYNDhcmGAAcDzoaBBAXH0dDS1FKR29ZS0cJBBEQBAsKSV9ZMG9ZS0VZSTUWHwwWBUUqBwoNSUlzS0VZS0cpBBEQBAtZOAkWH0dVYUVZS0VbOwoNAgoXSzYVBBFbYUVZNm8E
+{
+  "shuffle_seed_count": 0,
+  "metric_purchased_purges": 0,
+  "metric_path_per_floor": [
+    "M",
+    "?",
+    "M"
+  ],
+  "monster_list": [
+    "Jaw Worm",
+    "Small Slimes",
+    "2 Fungi Beasts",
+    "Exordium Thugs",
+    "Lots of Slimes",
+    "2 Fungi Beasts",
+    "Looter",
+    "Large Slime",
+    "Blue Slaver",
+    "Exordium Thugs",
+    "Large Slime",
+    "3 Louse",
+    "Exordium Wildlife",
+    "Looter",
+    "Lots of Slimes"
+  ],
+  "metric_potions_floor_spawned": [
+    3
+  ],
+  "daily_mods": [],
+  "metric_campfire_choices": [],
+  "is_ascension_mode": true,
+  "metric_items_purchased": [],
+  "is_endless_mode": false,
+  "combat_rewards": [
+    {
+      "type": "GOLD",
+      "amount": 14,
+      "bonusGold": 0
+    },
+    {
+      "type": "POTION",
+      "id": "FairyPotion",
+      "amount": 0,
+      "bonusGold": 0
+    }
+  ],
+  "merchant_seed_count": 0,
+  "floor_num": 3,
+  "uncommon_relics": [
+    "Question Card",
+    "Mercury Hourglass",
+    "HornCleat",
+    "White Beast Statue",
+    "Bottled Tornado",
+    "Letter Opener",
+    "Sundial",
+    "Eternal Feather",
+    "Blue Candle",
+    "Molten Egg 2",
+    "Gremlin Horn",
+    "Mummified Hand",
+    "Bottled Flame",
+    "InkBottle",
+    "Kunai",
+    "Meat on the Bone",
+    "Toxic Egg 2",
+    "Shuriken",
+    "Frozen Egg 2",
+    "Ornamental Fan",
+    "Matryoshka",
+    "Singing Bowl",
+    "Pear",
+    "Pantograph",
+    "Darkstone Periapt",
+    "Bottled Lightning",
+    "The Courier"
+  ],
+  "post_combat": true,
+  "combo": false,
+  "relics": [
+    "PureWater"
+  ],
+  "rare_relics": [
+    "Mango",
+    "Old Coin",
+    "Calipers",
+    "Turnip",
+    "Torii",
+    "GoldenEye",
+    "Ice Cream",
+    "Girya",
+    "Pocketwatch",
+    "CaptainsWheel",
+    "TungstenRod",
+    "StoneCalendar",
+    "Shovel",
+    "FossilizedHelix",
+    "Du-Vu Doll",
+    "Ginger",
+    "WingedGreaves",
+    "Lizard Tail",
+    "Prayer Wheel",
+    "Peace Pipe",
+    "Unceasing Top",
+    "Thread and Needle",
+    "Dead Branch",
+    "Gambling Chip",
+    "Bird Faced Urn",
+    "Incense Burner"
+  ],
+  "level_name": "Exordium",
+  "metric_campfire_rested": 0,
+  "max_orbs": 0,
+  "boss": "The Guardian",
+  "seed": 5914563907696846289,
+  "metric_current_hp_per_floor": [
+    72,
+    72
+  ],
+  "current_health": 69,
+  "common_relics": [
+    "Art of War",
+    "Smiling Mask",
+    "Blood Vial",
+    "War Paint",
+    "PreservedInsect",
+    "Juzu Bracelet",
+    "Lantern",
+    "Bag of Preparation",
+    "Nunchaku",
+    "Omamori",
+    "Bronze Scales",
+    "MealTicket",
+    "Whetstone",
+    "Toy Ornithopter",
+    "Centennial Puzzle",
+    "Oddly Smooth Stone",
+    "Boot",
+    "Ancient Tea Set",
+    "Anchor",
+    "Regal Pillow",
+    "Dream Catcher",
+    "Pen Nib",
+    "MawBank",
+    "Vajra",
+    "Happy Flower",
+    "Bag of Marbles",
+    "Tiny Chest",
+    "Orichalcum",
+    "Damaru",
+    "Strawberry",
+    "Potion Belt"
+  ],
+  "monsters_killed": 2,
+  "gold": 219,
+  "neow_bonus": "HUNDRED_GOLD",
+  "card_random_seed_count": 0,
+  "card_seed_count": 9,
+  "is_daily": false,
+  "metric_campfire_rituals": 0,
+  "metric_card_choices": [
+    {
+      "not_picked": [
+        "ThirdEye",
+        "Consecrate"
+      ],
+      "picked": "EmptyFist",
+      "floor": 1.0
+    }
+  ],
+  "metric_potions_obtained": [],
+  "is_final_act_on": true,
+  "treasure_seed_count": 2,
+  "metric_event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Forge",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "Accursed Blacksmith",
+      "floor": 2,
+      "gold_loss": 0,
+      "cards_upgraded": [
+        "Eruption"
+      ]
+    }
+  ],
+  "current_room": "com.megacrit.cardcrawl.rooms.MonsterRoom",
+  "has_emerald_key": false,
+  "boss_relics": [
+    "Empty Cage",
+    "Snecko Eye",
+    "Runic Dome",
+    "Calling Bell",
+    "SlaversCollar",
+    "HolyWater",
+    "Tiny House",
+    "Coffee Dripper",
+    "Pandora\u0027s Box",
+    "Ectoplasm",
+    "SacredBark",
+    "Astrolabe",
+    "Cursed Key",
+    "Philosopher\u0027s Stone",
+    "Fusion Hammer",
+    "Runic Pyramid",
+    "Black Star",
+    "Velvet Choker",
+    "Busted Crown",
+    "Sozu",
+    "VioletLotus"
+  ],
+  "blue": 0,
+  "path_y": [
+    0,
+    1,
+    2
+  ],
+  "path_x": [
+    3,
+    4,
+    5
+  ],
+  "metric_item_purchase_floors": [],
+  "gold_gained": 120,
+  "ascension_level": 1,
+  "one_time_event_list": [
+    "Bonfire Elementals",
+    "Designer",
+    "Duplicator",
+    "FaceTrader",
+    "Fountain of Cleansing",
+    "Knowing Skull",
+    "Lab",
+    "N\u0027loth",
+    "SecretPortal",
+    "The Joust",
+    "WeMeetAgain",
+    "The Woman in Blue"
+  ],
+  "card_random_seed_randomizer": 2,
+  "metric_campfire_meditates": 0,
+  "perfect": 0,
+  "mugged": false,
+  "metric_build_version": "2022-12-18",
+  "event_list": [
+    "Big Fish",
+    "The Cleric",
+    "Dead Adventurer",
+    "Golden Idol",
+    "Golden Wing",
+    "World of Goop",
+    "Liars Game",
+    "Living Wall",
+    "Mushrooms",
+    "Scrap Ooze",
+    "Shining Light"
+  ],
+  "elite_monster_list": [
+    "Gremlin Nob",
+    "Lagavulin",
+    "Gremlin Nob",
+    "3 Sentries",
+    "Lagavulin",
+    "Gremlin Nob",
+    "Lagavulin",
+    "3 Sentries",
+    "Gremlin Nob",
+    "Lagavulin"
+  ],
+  "metric_seed_played": "5914563907696846289",
+  "red": 3,
+  "elites3_killed": 0,
+  "relic_counters": [
+    -1
+  ],
+  "seed_set": false,
+  "elites2_killed": 0,
+  "metric_items_purged_floors": [],
+  "potion_seed_count": 6,
+  "blights": [],
+  "elites1_killed": 0,
+  "overkill": false,
+  "neow_cost": "NONE",
+  "metric_floor_reached": 3,
+  "champions": 0,
+  "smoked": false,
+  "spirit_count": 0,
+  "special_seed": 0,
+  "potion_chance": 0,
+  "shop_relics": [
+    "DollysMirror",
+    "Orrery",
+    "ClockworkSouvenir",
+    "Sling",
+    "PrismaticShard",
+    "OrangePellets",
+    "Chemical X",
+    "Cauldron",
+    "TheAbacus",
+    "Melange",
+    "Frozen Eye",
+    "Lee\u0027s Waffle",
+    "Toolbox",
+    "Medical Kit",
+    "HandDrill",
+    "Membership Card",
+    "Strange Spoon"
+  ],
+  "custom_mods": [],
+  "metric_path_taken": [
+    "M",
+    "?",
+    "?"
+  ],
+  "name": "Rayman",
+  "has_ruby_key": false,
+  "metric_playtime": 75,
+  "has_sapphire_key": false,
+  "is_trial": false,
+  "metric_max_hp_per_floor": [
+    72,
+    72
+  ],
+  "save_date": 1729701411659,
+  "cards": [
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Strike_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Strike_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Strike_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Strike_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Defend_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Defend_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Defend_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Defend_P"
+    },
+    {
+      "upgrades": 1,
+      "misc": 0,
+      "id": "Eruption"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Vigilance"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "EmptyFist"
+    }
+  ],
+  "endless_increments": [],
+  "metric_items_purged": [],
+  "purgeCost": 75,
+  "room_x": 5,
+  "blight_counters": [],
+  "room_y": 2,
+  "metric_gold_per_floor": [
+    219,
+    219
+  ],
+  "metric_potions_floor_usage": [],
+  "boss_list": [
+    "The Guardian",
+    "Hexaghost",
+    "Slime Boss"
+  ],
+  "ai_seed_count": 0,
+  "event_chances": [
+    0.1,
+    0.2,
+    0.06,
+    0.04
+  ],
+  "metric_boss_relics": [],
+  "relic_seed_count": 5,
+  "act_num": 1,
+  "metric_damage_taken": [
+    {
+      "damage": 0.0,
+      "enemies": "Cultist",
+      "floor": 1.0,
+      "turns": 2.0
+    },
+    {
+      "damage": 3,
+      "enemies": "Jaw Worm",
+      "floor": 3,
+      "turns": 3
+    }
+  ],
+  "green": 0,
+  "mystery_machine": 2,
+  "metric_campfire_upgraded": 0,
+  "potion_slots": 3,
+  "chose_neow_reward": false,
+  "event_seed_count": 1,
+  "metric_relics_obtained": [],
+  "daily_date": 0,
+  "obtained_cards": {
+    "EmptyFist": 1
+  },
+  "play_time": 75,
+  "hand_size": 5,
+  "max_health": 72,
+  "monster_seed_count": 43,
+  "potions": [
+    "Potion Slot",
+    "Potion Slot",
+    "Potion Slot"
+  ]
+}
