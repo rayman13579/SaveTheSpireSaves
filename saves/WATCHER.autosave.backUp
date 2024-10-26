@@ -7,6 +7,7 @@
     "M"
   ],
   "monster_list": [
+    "Jaw Worm",
     "Small Slimes",
     "2 Fungi Beasts",
     "Exordium Thugs",
@@ -30,8 +31,21 @@
   "is_ascension_mode": true,
   "metric_items_purchased": [],
   "is_endless_mode": false,
+  "combat_rewards": [
+    {
+      "type": "GOLD",
+      "amount": 14,
+      "bonusGold": 0
+    },
+    {
+      "type": "POTION",
+      "id": "FairyPotion",
+      "amount": 0,
+      "bonusGold": 0
+    }
+  ],
   "merchant_seed_count": 0,
-  "floor_num": 4,
+  "floor_num": 3,
   "uncommon_relics": [
     "Question Card",
     "Mercury Hourglass",
@@ -61,7 +75,7 @@
     "Bottled Lightning",
     "The Courier"
   ],
-  "post_combat": false,
+  "post_combat": true,
   "combo": false,
   "relics": [
     "PureWater"
@@ -101,8 +115,7 @@
   "seed": 5914563907696846289,
   "metric_current_hp_per_floor": [
     72,
-    72,
-    69
+    72
   ],
   "current_health": 69,
   "common_relics": [
@@ -139,10 +152,10 @@
     "Potion Belt"
   ],
   "monsters_killed": 2,
-  "gold": 233,
+  "gold": 219,
   "neow_bonus": "HUNDRED_GOLD",
   "card_random_seed_count": 0,
-  "card_seed_count": 18,
+  "card_seed_count": 9,
   "is_daily": false,
   "metric_campfire_rituals": 0,
   "metric_card_choices": [
@@ -153,22 +166,9 @@
       ],
       "picked": "EmptyFist",
       "floor": 1.0
-    },
-    {
-      "not_picked": [
-        "PathToVictory",
-        "CutThroughFate"
-      ],
-      "picked": "Halt",
-      "floor": 3
     }
   ],
-  "metric_potions_obtained": [
-    {
-      "floor": 3,
-      "key": "FairyPotion"
-    }
-  ],
+  "metric_potions_obtained": [],
   "is_final_act_on": true,
   "treasure_seed_count": 2,
   "metric_event_choices": [
@@ -187,7 +187,7 @@
       ]
     }
   ],
-  "current_room": "com.megacrit.cardcrawl.rooms.ShopRoom",
+  "current_room": "com.megacrit.cardcrawl.rooms.MonsterRoom",
   "has_emerald_key": false,
   "boss_relics": [
     "Empty Cage",
@@ -216,17 +216,15 @@
   "path_y": [
     0,
     1,
-    2,
-    3
+    2
   ],
   "path_x": [
     3,
     4,
-    5,
-    6
+    5
   ],
   "metric_item_purchase_floors": [],
-  "gold_gained": 134,
+  "gold_gained": 120,
   "ascension_level": 1,
   "one_time_event_list": [
     "Bonfire Elementals",
@@ -242,7 +240,7 @@
     "WeMeetAgain",
     "The Woman in Blue"
   ],
-  "card_random_seed_randomizer": -1,
+  "card_random_seed_randomizer": 2,
   "metric_campfire_meditates": 0,
   "perfect": 0,
   "mugged": false,
@@ -286,7 +284,7 @@
   "elites1_killed": 0,
   "overkill": false,
   "neow_cost": "NONE",
-  "metric_floor_reached": 4,
+  "metric_floor_reached": 3,
   "champions": 0,
   "smoked": false,
   "spirit_count": 0,
@@ -315,20 +313,18 @@
   "metric_path_taken": [
     "M",
     "?",
-    "?",
-    "$"
+    "?"
   ],
   "name": "Rayman",
   "has_ruby_key": false,
-  "metric_playtime": 79,
+  "metric_playtime": 75,
   "has_sapphire_key": false,
   "is_trial": false,
   "metric_max_hp_per_floor": [
     72,
-    72,
     72
   ],
-  "save_date": 1729701415597,
+  "save_date": 1729701411659,
   "cards": [
     {
       "upgrades": 0,
@@ -384,23 +380,17 @@
       "upgrades": 0,
       "misc": 0,
       "id": "EmptyFist"
-    },
-    {
-      "upgrades": 0,
-      "misc": 0,
-      "id": "Halt"
     }
   ],
   "endless_increments": [],
   "metric_items_purged": [],
   "purgeCost": 75,
-  "room_x": 6,
+  "room_x": 5,
   "blight_counters": [],
-  "room_y": 3,
+  "room_y": 2,
   "metric_gold_per_floor": [
     219,
-    219,
-    233
+    219
   ],
   "metric_potions_floor_usage": [],
   "boss_list": [
@@ -410,10 +400,10 @@
   ],
   "ai_seed_count": 0,
   "event_chances": [
-    0.2,
     0.1,
-    0.089999996,
-    0.06
+    0.2,
+    0.06,
+    0.04
   ],
   "metric_boss_relics": [],
   "relic_seed_count": 5,
@@ -437,19 +427,18 @@
   "metric_campfire_upgraded": 0,
   "potion_slots": 3,
   "chose_neow_reward": false,
-  "event_seed_count": 2,
+  "event_seed_count": 1,
   "metric_relics_obtained": [],
   "daily_date": 0,
   "obtained_cards": {
-    "Halt": 1,
     "EmptyFist": 1
   },
-  "play_time": 79,
+  "play_time": 75,
   "hand_size": 5,
   "max_health": 72,
   "monster_seed_count": 43,
   "potions": [
-    "FairyPotion",
+    "Potion Slot",
     "Potion Slot",
     "Potion Slot"
   ]
