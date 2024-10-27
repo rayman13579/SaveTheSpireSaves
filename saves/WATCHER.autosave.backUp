@@ -23,7 +23,11 @@
     "$",
     "M",
     "M",
-    "?"
+    "?",
+    "E",
+    "?",
+    "R",
+    "T"
   ],
   "basemod:mod_saves": {},
   "monster_list": [
@@ -83,6 +87,10 @@
     {
       "floor": 15.0,
       "key": "REST"
+    },
+    {
+      "floor": 25,
+      "key": "REST"
     }
   ],
   "is_ascension_mode": true,
@@ -91,27 +99,8 @@
     "Incense Burner"
   ],
   "is_endless_mode": false,
-  "combat_rewards": [
-    {
-      "type": "GOLD",
-      "amount": 26,
-      "bonusGold": 0
-    },
-    {
-      "type": "RELIC",
-      "id": "Red Mask",
-      "amount": 0,
-      "bonusGold": 0
-    },
-    {
-      "type": "POTION",
-      "id": "SteroidPotion",
-      "amount": 0,
-      "bonusGold": 0
-    }
-  ],
   "merchant_seed_count": 32,
-  "floor_num": 22,
+  "floor_num": 27,
   "uncommon_relics": [
     "The Courier",
     "Letter Opener",
@@ -141,7 +130,7 @@
     "Frozen Egg 2",
     "Shuriken"
   ],
-  "post_combat": true,
+  "post_combat": false,
   "combo": false,
   "relics": [
     "PureWater",
@@ -153,7 +142,9 @@
     "War Paint",
     "MawBank",
     "VioletLotus",
-    "Incense Burner"
+    "Incense Burner",
+    "Red Mask",
+    "Vajra"
   ],
   "basemod:mod_potion_saves": [
     null,
@@ -187,7 +178,7 @@
     "Peace Pipe"
   ],
   "level_name": "TheCity",
-  "metric_campfire_rested": 3,
+  "metric_campfire_rested": 4,
   "basemod:mod_card_saves": [
     null,
     null,
@@ -234,12 +225,15 @@
     72,
     72,
     60,
-    41
+    41,
+    15,
+    7,
+    7,
+    28,
+    28
   ],
-  "current_health": 15,
+  "current_health": 28,
   "common_relics": [
-    "Vajra",
-    "Omamori",
     "Tiny Chest",
     "Blood Vial",
     "Bronze Scales",
@@ -265,7 +259,7 @@
   "gold": 62,
   "neow_bonus": "RANDOM_COMMON_RELIC",
   "card_random_seed_count": 0,
-  "card_seed_count": 289,
+  "card_seed_count": 308,
   "is_daily": false,
   "metric_campfire_rituals": 0,
   "metric_card_choices": [
@@ -339,7 +333,7 @@
         "FlyingSleeves"
       ],
       "picked": "CutThroughFate+1",
-      "floor": 18
+      "floor": 18.0
     },
     {
       "not_picked": [
@@ -347,7 +341,7 @@
         "FlurryOfBlows"
       ],
       "picked": "ForeignInfluence",
-      "floor": 20
+      "floor": 20.0
     },
     {
       "not_picked": [
@@ -355,7 +349,24 @@
         "EmptyFist+1"
       ],
       "picked": "ReachHeaven+1",
-      "floor": 21
+      "floor": 21.0
+    },
+    {
+      "not_picked": [
+        "ThirdEye",
+        "InnerPeace"
+      ],
+      "picked": "Ragnarok",
+      "floor": 22.0
+    },
+    {
+      "not_picked": [
+        "BowlingBash+1",
+        "Collect",
+        "MasterReality"
+      ],
+      "picked": "SKIP",
+      "floor": 23
     }
   ],
   "metric_potions_obtained": [
@@ -376,12 +387,16 @@
       "key": "BottledMiracle"
     },
     {
-      "floor": 20,
+      "floor": 20.0,
       "key": "FearPotion"
+    },
+    {
+      "floor": 22.0,
+      "key": "SteroidPotion"
     }
   ],
   "is_final_act_on": true,
-  "treasure_seed_count": 13,
+  "treasure_seed_count": 17,
   "metric_event_choices": [
     {
       "damage_healed": 0.0,
@@ -420,21 +435,36 @@
       "damage_taken": 0.0
     },
     {
+      "damage_healed": 0.0,
+      "max_hp_gain": 0.0,
+      "max_hp_loss": 0.0,
+      "gold_gain": 0.0,
+      "event_name": "Masked Bandits",
+      "player_choice": "Fought Bandits",
+      "floor": 22.0,
+      "gold_loss": 0.0,
+      "damage_taken": 0.0
+    },
+    {
+      "cards_removed": [
+        "Strike_P"
+      ],
       "damage_healed": 0,
       "gold_gain": 0,
-      "player_choice": "Fought Bandits",
+      "player_choice": "Gave Gold",
       "damage_taken": 0,
       "max_hp_gain": 0,
       "max_hp_loss": 0,
-      "event_name": "Masked Bandits",
-      "floor": 22,
-      "gold_loss": 0
+      "event_name": "Beggar",
+      "floor": 24,
+      "gold_loss": 75
     }
   ],
   "current_room": "com.megacrit.cardcrawl.rooms.EventRoom",
   "has_emerald_key": true,
   "basemod:event_saves": [
-    "Masked Bandits"
+    "Masked Bandits",
+    "Beggar"
   ],
   "boss_relics": [
     "Pandora\u0027s Box",
@@ -462,20 +492,30 @@
     1,
     2,
     3,
-    4
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
   ],
   "path_x": [
     4,
     5,
     4,
     4,
-    4
+    4,
+    4,
+    3,
+    3,
+    3,
+    2
   ],
   "metric_item_purchase_floors": [
     4,
     19
   ],
-  "gold_gained": 447,
+  "gold_gained": 522,
   "ascension_level": 2,
   "one_time_event_list": [
     "Accursed Blacksmith",
@@ -491,7 +531,7 @@
     "The Joust",
     "WeMeetAgain"
   ],
-  "card_random_seed_randomizer": -2,
+  "card_random_seed_randomizer": 5,
   "metric_campfire_meditates": 0,
   "perfect": 0,
   "mugged": false,
@@ -499,7 +539,6 @@
   "event_list": [
     "Addict",
     "Back to Basics",
-    "Beggar",
     "Colosseum",
     "Cursed Tome",
     "Drug Dealer",
@@ -511,7 +550,6 @@
     "Vampires"
   ],
   "elite_monster_list": [
-    "Slavers",
     "Gremlin Leader",
     "Slavers",
     "Book of Stabbing",
@@ -535,24 +573,26 @@
     -1,
     -2,
     -1,
-    4
+    1,
+    -1,
+    -1
   ],
   "seed_set": false,
-  "elites2_killed": 0,
+  "elites2_killed": 1,
   "metric_items_purged_floors": [
     19
   ],
-  "potion_seed_count": 56,
+  "potion_seed_count": 57,
   "blights": [],
   "elites1_killed": 4,
   "overkill": false,
   "neow_cost": "NONE",
-  "metric_floor_reached": 22,
+  "metric_floor_reached": 27,
   "champions": 1,
   "smoked": false,
   "spirit_count": 1,
   "special_seed": 0,
-  "potion_chance": 0,
+  "potion_chance": 10,
   "shop_relics": [
     "Medical Kit",
     "Lee\u0027s Waffle",
@@ -592,13 +632,18 @@
     "$",
     "M",
     "M",
+    "?",
+    "E",
+    "?",
+    "R",
+    "T",
     "?"
   ],
   "name": "Rayman",
   "has_ruby_key": false,
-  "metric_playtime": 1207,
+  "metric_playtime": 1334,
   "basemod:max_hand_size": 10,
-  "has_sapphire_key": false,
+  "has_sapphire_key": true,
   "is_trial": false,
   "metric_max_hp_per_floor": [
     72,
@@ -621,17 +666,17 @@
     72,
     72,
     72,
+    72,
+    72,
+    72,
+    72,
+    72,
     72
   ],
-  "save_date": 1730064541406,
+  "save_date": 1730064743752,
   "cards": [
     {
       "upgrades": 1,
-      "misc": 0,
-      "id": "Strike_P"
-    },
-    {
-      "upgrades": 0,
       "misc": 0,
       "id": "Strike_P"
     },
@@ -724,6 +769,11 @@
       "upgrades": 1,
       "misc": 0,
       "id": "ReachHeaven"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Ragnarok"
     }
   ],
   "endless_increments": [],
@@ -731,9 +781,9 @@
     "Defend_P"
   ],
   "purgeCost": 100,
-  "room_x": 4,
+  "room_x": 2,
   "blight_counters": [],
-  "room_y": 4,
+  "room_y": 9,
   "metric_gold_per_floor": [
     117,
     117,
@@ -755,10 +805,16 @@
     390,
     36,
     50,
+    62,
+    88,
+    114,
+    39,
+    39,
     62
   ],
   "metric_potions_floor_usage": [
-    21
+    23,
+    23
   ],
   "boss_list": [
     "Automaton",
@@ -767,10 +823,10 @@
   ],
   "ai_seed_count": 0,
   "event_chances": [
-    0.0,
-    0.1,
-    0.03,
-    0.02
+    0.2,
+    0.3,
+    0.089999996,
+    0.06
   ],
   "metric_boss_relics": [
     {
@@ -781,7 +837,7 @@
       "picked": "VioletLotus"
     }
   ],
-  "relic_seed_count": 10,
+  "relic_seed_count": 11,
   "act_num": 2,
   "metric_damage_taken": [
     {
@@ -845,30 +901,36 @@
       "turns": 3.0
     },
     {
-      "damage": 12,
+      "damage": 12.0,
       "enemies": "Shell Parasite",
-      "floor": 20,
-      "turns": 3
+      "floor": 20.0,
+      "turns": 3.0
     },
     {
-      "damage": 19,
+      "damage": 19.0,
       "enemies": "Snake Plant",
-      "floor": 21,
-      "turns": 3
+      "floor": 21.0,
+      "turns": 3.0
     },
     {
-      "damage": 26,
+      "damage": 26.0,
       "enemies": "Masked Bandits",
-      "floor": 22,
-      "turns": 4
+      "floor": 22.0,
+      "turns": 4.0
+    },
+    {
+      "damage": 8,
+      "enemies": "Slavers",
+      "floor": 23,
+      "turns": 3
     }
   ],
   "green": 0,
-  "mystery_machine": 5,
+  "mystery_machine": 7,
   "metric_campfire_upgraded": 0,
   "potion_slots": 3,
   "chose_neow_reward": false,
-  "event_seed_count": 5,
+  "event_seed_count": 6,
   "metric_relics_obtained": [
     {
       "floor": 6.0,
@@ -893,24 +955,33 @@
     {
       "floor": 14.0,
       "key": "MawBank"
+    },
+    {
+      "floor": 22.0,
+      "key": "Red Mask"
+    },
+    {
+      "floor": 23,
+      "key": "Vajra"
     }
   ],
   "daily_date": 0,
   "obtained_cards": {
+    "SandsOfTime": 1,
+    "Meditate": 1,
+    "Vengeance": 1,
+    "CutThroughFate": 1,
     "MentalFortress": 1,
     "ReachHeaven": 1,
     "Judgement": 1,
-    "SandsOfTime": 1,
     "FlurryOfBlows": 1,
     "ForeignInfluence": 1,
+    "Ragnarok": 1,
     "EmptyFist": 1,
-    "Meditate": 1,
-    "Vengeance": 1,
     "SignatureMove": 1,
-    "Prostrate": 1,
-    "CutThroughFate": 1
+    "Prostrate": 1
   },
-  "play_time": 1207,
+  "play_time": 1334,
   "hand_size": 5,
   "max_health": 72,
   "monster_seed_count": 79,
@@ -924,11 +995,13 @@
     null,
     null,
     null,
+    null,
+    null,
     null
   ],
   "potions": [
     "Potion Slot",
-    "FearPotion",
+    "Potion Slot",
     "Potion Slot"
   ]
 }
