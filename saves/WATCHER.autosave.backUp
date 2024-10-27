@@ -6,7 +6,10 @@
     "?",
     "M",
     "$",
-    "?"
+    "?",
+    "E",
+    "R",
+    "E"
   ],
   "basemod:mod_saves": {},
   "monster_list": [
@@ -37,18 +40,28 @@
     null,
     null,
     null,
+    null,
+    null,
     null
   ],
-  "metric_potions_floor_spawned": [],
+  "metric_potions_floor_spawned": [
+    6,
+    8
+  ],
   "daily_mods": [],
-  "metric_campfire_choices": [],
+  "metric_campfire_choices": [
+    {
+      "floor": 7,
+      "key": "REST"
+    }
+  ],
   "is_ascension_mode": true,
   "metric_items_purchased": [
     "SignatureMove"
   ],
   "is_endless_mode": false,
   "merchant_seed_count": 16,
-  "floor_num": 6,
+  "floor_num": 9,
   "uncommon_relics": [
     "The Courier",
     "Letter Opener",
@@ -82,7 +95,9 @@
   "combo": false,
   "relics": [
     "PureWater",
-    "Boot"
+    "Boot",
+    "Whetstone",
+    "Orichalcum"
   ],
   "basemod:mod_potion_saves": [
     null,
@@ -118,8 +133,10 @@
     "Incense Burner"
   ],
   "level_name": "Exordium",
-  "metric_campfire_rested": 0,
+  "metric_campfire_rested": 1,
   "basemod:mod_card_saves": [
+    null,
+    null,
     null,
     null,
     null,
@@ -141,12 +158,13 @@
     72,
     72,
     72,
-    72
+    72,
+    18,
+    39,
+    13
   ],
-  "current_health": 72,
+  "current_health": 13,
   "common_relics": [
-    "Whetstone",
-    "Orichalcum",
     "Oddly Smooth Stone",
     "War Paint",
     "MawBank",
@@ -175,10 +193,10 @@
     "Bag of Preparation"
   ],
   "monsters_killed": 2,
-  "gold": 17,
+  "gold": 77,
   "neow_bonus": "RANDOM_COMMON_RELIC",
   "card_random_seed_count": 0,
-  "card_seed_count": 30,
+  "card_seed_count": 47,
   "is_daily": false,
   "metric_campfire_rituals": 0,
   "metric_card_choices": [
@@ -196,12 +214,37 @@
         "FlyingSleeves"
       ],
       "picked": "EmptyFist",
-      "floor": 3
+      "floor": 3.0
+    },
+    {
+      "not_picked": [
+        "BowlingBash",
+        "Ragnarok"
+      ],
+      "picked": "Prostrate",
+      "floor": 6
+    },
+    {
+      "not_picked": [
+        "BowlingBash",
+        "WheelKick"
+      ],
+      "picked": "MentalFortress",
+      "floor": 8
     }
   ],
-  "metric_potions_obtained": [],
+  "metric_potions_obtained": [
+    {
+      "floor": 6,
+      "key": "AttackPotion"
+    },
+    {
+      "floor": 8,
+      "key": "Strength Potion"
+    }
+  ],
   "is_final_act_on": true,
-  "treasure_seed_count": 2,
+  "treasure_seed_count": 4,
   "metric_event_choices": [
     {
       "damage_healed": 0.0,
@@ -218,19 +261,19 @@
       "cards_removed": [
         "Strike_P"
       ],
-      "damage_healed": 0,
-      "gold_gain": 0,
-      "player_choice": "Card Removal",
-      "damage_taken": 0,
-      "max_hp_gain": 0,
-      "max_hp_loss": 0,
+      "damage_healed": 0.0,
+      "max_hp_gain": 0.0,
+      "max_hp_loss": 0.0,
+      "gold_gain": 0.0,
       "event_name": "The Cleric",
-      "floor": 5,
-      "gold_loss": 50
+      "player_choice": "Card Removal",
+      "floor": 5.0,
+      "gold_loss": 50.0,
+      "damage_taken": 0.0
     }
   ],
-  "current_room": "com.megacrit.cardcrawl.rooms.MonsterRoomElite",
-  "has_emerald_key": false,
+  "current_room": "com.megacrit.cardcrawl.rooms.TreasureRoom",
+  "has_emerald_key": true,
   "basemod:event_saves": [
     "The Cleric"
   ],
@@ -264,7 +307,10 @@
     2,
     3,
     4,
-    5
+    5,
+    6,
+    7,
+    8
   ],
   "path_x": [
     3,
@@ -272,12 +318,15 @@
     4,
     5,
     6,
-    6
+    6,
+    6,
+    6,
+    5
   ],
   "metric_item_purchase_floors": [
     4
   ],
-  "gold_gained": 36,
+  "gold_gained": 96,
   "ascension_level": 2,
   "one_time_event_list": [
     "Accursed Blacksmith",
@@ -293,7 +342,7 @@
     "The Joust",
     "WeMeetAgain"
   ],
-  "card_random_seed_randomizer": 1,
+  "card_random_seed_randomizer": 3,
   "metric_campfire_meditates": 0,
   "perfect": 0,
   "mugged": false,
@@ -311,8 +360,6 @@
     "Shining Light"
   ],
   "elite_monster_list": [
-    "Lagavulin",
-    "3 Sentries",
     "Gremlin Nob",
     "Lagavulin",
     "3 Sentries",
@@ -327,22 +374,24 @@
   "elites3_killed": 0,
   "relic_counters": [
     -1,
+    -1,
+    -1,
     -1
   ],
   "seed_set": false,
   "elites2_killed": 0,
   "metric_items_purged_floors": [],
-  "potion_seed_count": 9,
+  "potion_seed_count": 17,
   "blights": [],
-  "elites1_killed": 0,
+  "elites1_killed": 2,
   "overkill": false,
   "neow_cost": "NONE",
-  "metric_floor_reached": 6,
+  "metric_floor_reached": 9,
   "champions": 0,
   "smoked": false,
   "spirit_count": 0,
   "special_seed": 0,
-  "potion_chance": 20,
+  "potion_chance": 0,
   "shop_relics": [
     "Medical Kit",
     "Lee\u0027s Waffle",
@@ -368,11 +417,14 @@
     "?",
     "$",
     "?",
-    "E"
+    "E",
+    "R",
+    "E",
+    "T"
   ],
   "name": "Rayman",
   "has_ruby_key": false,
-  "metric_playtime": 125,
+  "metric_playtime": 319,
   "basemod:max_hand_size": 10,
   "has_sapphire_key": false,
   "is_trial": false,
@@ -381,12 +433,15 @@
     72,
     72,
     72,
+    72,
+    72,
+    72,
     72
   ],
-  "save_date": 1730059039404,
+  "save_date": 1730062465055,
   "cards": [
     {
-      "upgrades": 0,
+      "upgrades": 1,
       "misc": 0,
       "id": "Strike_P"
     },
@@ -436,7 +491,7 @@
       "id": "Vengeance"
     },
     {
-      "upgrades": 0,
+      "upgrades": 1,
       "misc": 0,
       "id": "EmptyFist"
     },
@@ -444,20 +499,33 @@
       "upgrades": 0,
       "misc": 0,
       "id": "SignatureMove"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Prostrate"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "MentalFortress"
     }
   ],
   "endless_increments": [],
   "metric_items_purged": [],
   "purgeCost": 75,
-  "room_x": 6,
+  "room_x": 5,
   "blight_counters": [],
-  "room_y": 5,
+  "room_y": 8,
   "metric_gold_per_floor": [
     117,
     117,
     135,
     67,
-    17
+    17,
+    51,
+    51,
+    77
   ],
   "metric_potions_floor_usage": [],
   "boss_list": [
@@ -467,13 +535,13 @@
   ],
   "ai_seed_count": 0,
   "event_chances": [
-    0.3,
     0.2,
-    0.12,
-    0.08
+    0.1,
+    0.089999996,
+    0.06
   ],
   "metric_boss_relics": [],
-  "relic_seed_count": 5,
+  "relic_seed_count": 7,
   "act_num": 1,
   "metric_damage_taken": [
     {
@@ -487,6 +555,18 @@
       "enemies": "Cultist",
       "floor": 3.0,
       "turns": 4.0
+    },
+    {
+      "damage": 54.0,
+      "enemies": "Lagavulin",
+      "floor": 6.0,
+      "turns": 8.0
+    },
+    {
+      "damage": 26,
+      "enemies": "3 Sentries",
+      "floor": 8,
+      "turns": 5
     }
   ],
   "green": 0,
@@ -495,24 +575,37 @@
   "potion_slots": 3,
   "chose_neow_reward": false,
   "event_seed_count": 3,
-  "metric_relics_obtained": [],
+  "metric_relics_obtained": [
+    {
+      "floor": 6,
+      "key": "Whetstone"
+    },
+    {
+      "floor": 8,
+      "key": "Orichalcum"
+    }
+  ],
   "daily_date": 0,
   "obtained_cards": {
+    "MentalFortress": 1,
     "EmptyFist": 1,
     "Vengeance": 1,
-    "SignatureMove": 1
+    "SignatureMove": 1,
+    "Prostrate": 1
   },
-  "play_time": 125,
+  "play_time": 319,
   "hand_size": 5,
   "max_health": 72,
   "monster_seed_count": 39,
   "basemod:mod_relic_saves": [
     null,
+    null,
+    null,
     null
   ],
   "potions": [
-    "Potion Slot",
-    "Potion Slot",
+    "AttackPotion",
+    "Strength Potion",
     "Potion Slot"
   ]
 }
