@@ -121,8 +121,27 @@
     "AttackPotion"
   ],
   "is_endless_mode": false,
+  "combat_rewards": [
+    {
+      "type": "GOLD",
+      "amount": 50,
+      "bonusGold": 0
+    },
+    {
+      "type": "RELIC",
+      "id": "Turnip",
+      "amount": 0,
+      "bonusGold": 0
+    },
+    {
+      "type": "POTION",
+      "id": "AttackPotion",
+      "amount": 0,
+      "bonusGold": 0
+    }
+  ],
   "merchant_seed_count": 64,
-  "floor_num": 49,
+  "floor_num": 48,
   "uncommon_relics": [
     "Letter Opener",
     "Sundial",
@@ -143,7 +162,7 @@
     "Singing Bowl",
     "Pear"
   ],
-  "post_combat": false,
+  "post_combat": true,
   "combo": false,
   "relics": [
     "HolyWater",
@@ -168,8 +187,7 @@
     "Medical Kit",
     "Calipers",
     "Juzu Bracelet",
-    "Bottled Tornado",
-    "Turnip"
+    "Bottled Tornado"
   ],
   "rare_relics": [
     "Torii",
@@ -247,8 +265,7 @@
     54,
     39,
     39,
-    39,
-    63
+    39
   ],
   "current_health": 63,
   "common_relics": [
@@ -273,10 +290,10 @@
     "Happy Flower"
   ],
   "monsters_killed": 13,
-  "gold": 384,
+  "gold": 334,
   "neow_bonus": "HUNDRED_GOLD",
   "card_random_seed_count": 0,
-  "card_seed_count": 627,
+  "card_seed_count": 615,
   "is_daily": false,
   "metric_campfire_rituals": 0,
   "metric_card_choices": [
@@ -563,10 +580,6 @@
     {
       "floor": 45,
       "key": "AttackPotion"
-    },
-    {
-      "floor": 48,
-      "key": "AttackPotion"
     }
   ],
   "is_final_act_on": true,
@@ -717,7 +730,7 @@
       "gold_loss": 0
     }
   ],
-  "current_room": "com.megacrit.cardcrawl.rooms.RestRoom",
+  "current_room": "com.megacrit.cardcrawl.rooms.EventRoom",
   "has_emerald_key": false,
   "boss_relics": [
     "Tiny House",
@@ -751,8 +764,7 @@
     10,
     11,
     12,
-    13,
-    14
+    13
   ],
   "path_x": [
     0,
@@ -768,8 +780,7 @@
     1,
     0,
     1,
-    1,
-    2
+    1
   ],
   "metric_item_purchase_floors": [
     4,
@@ -783,7 +794,7 @@
     39,
     39
   ],
-  "gold_gained": 1414,
+  "gold_gained": 1364,
   "ascension_level": 1,
   "one_time_event_list": [
     "Bonfire Elementals",
@@ -799,7 +810,7 @@
     "WeMeetAgain",
     "The Woman in Blue"
   ],
-  "card_random_seed_randomizer": 1,
+  "card_random_seed_randomizer": 5,
   "metric_campfire_meditates": 0,
   "perfect": 0,
   "mugged": false,
@@ -846,7 +857,6 @@
     -1,
     -1,
     -1,
-    -1,
     -1
   ],
   "seed_set": false,
@@ -860,7 +870,7 @@
   "elites1_killed": 1,
   "overkill": false,
   "neow_cost": "NONE",
-  "metric_floor_reached": 49,
+  "metric_floor_reached": 48,
   "champions": 0,
   "smoked": false,
   "spirit_count": 2,
@@ -928,12 +938,11 @@
     "E",
     "?",
     "?",
-    "?",
-    "R"
+    "?"
   ],
   "name": "Rayman",
   "has_ruby_key": false,
-  "metric_playtime": 3824,
+  "metric_playtime": 3798,
   "has_sapphire_key": true,
   "is_trial": false,
   "metric_max_hp_per_floor": [
@@ -983,10 +992,9 @@
     98,
     98,
     98,
-    98,
     98
   ],
-  "save_date": 1730043306501,
+  "save_date": 1730043279805,
   "cards": [
     {
       "upgrades": 0,
@@ -1146,9 +1154,9 @@
   ],
   "bottled_tornado_upgrade": 1,
   "purgeCost": 125,
-  "room_x": 2,
+  "room_x": 1,
   "blight_counters": [],
-  "room_y": 14,
+  "room_y": 13,
   "metric_gold_per_floor": [
     219,
     219,
@@ -1196,8 +1204,7 @@
     82,
     112,
     334,
-    334,
-    384
+    334
   ],
   "metric_potions_floor_usage": [
     22,
@@ -1218,10 +1225,10 @@
   ],
   "ai_seed_count": 0,
   "event_chances": [
+    0.3,
     0.4,
-    0.1,
-    0.14999999,
-    0.099999994
+    0.12,
+    0.08
   ],
   "metric_boss_relics": [
     {
@@ -1447,10 +1454,6 @@
     {
       "floor": 45,
       "key": "Bottled Tornado"
-    },
-    {
-      "floor": 48,
-      "key": "Turnip"
     }
   ],
   "daily_date": 0,
@@ -1477,7 +1480,7 @@
     "TalkToTheHand": 1,
     "BattleHymn": 1
   },
-  "play_time": 3824,
+  "play_time": 3798,
   "hand_size": 5,
   "max_health": 98,
   "monster_seed_count": 113,
@@ -1487,6 +1490,6 @@
     "FairyPotion",
     "DistilledChaos",
     "AttackPotion",
-    "AttackPotion"
+    "Potion Slot"
   ]
 }

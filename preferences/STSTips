@@ -1,1 +1,12 @@
-{"NEOW_SKIP":"True","COMBAT_TIP":"True","SHUFFLE_TIP":"True","POTION_TIP":"True","RELIC_TIP":"True","INTENT_TIP":"True","POWER_TIP":"True","CARD_REWARD_TIP":"True","NEOW_INTRO":"True","ENERGY_USE_TIP":"True"}
+{
+  "NEOW_SKIP": "true",
+  "COMBAT_TIP": "True",
+  "SHUFFLE_TIP": "True",
+  "POTION_TIP": "True",
+  "RELIC_TIP": "True",
+  "INTENT_TIP": "True",
+  "POWER_TIP": "True",
+  "CARD_REWARD_TIP": "True",
+  "NEOW_INTRO": "True",
+  "ENERGY_USE_TIP": "True"
+}
