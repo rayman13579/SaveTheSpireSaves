@@ -1,0 +1,421 @@
+{
+  "shuffle_seed_count": 0,
+  "metric_purchased_purges": 0,
+  "metric_path_per_floor": [
+    "M",
+    "?"
+  ],
+  "monster_list": [
+    "Cultist",
+    "2 Louse",
+    "2 Fungi Beasts",
+    "Blue Slaver",
+    "3 Louse",
+    "Large Slime",
+    "Blue Slaver",
+    "2 Fungi Beasts",
+    "Exordium Thugs",
+    "Lots of Slimes",
+    "Blue Slaver",
+    "2 Fungi Beasts",
+    "Exordium Wildlife",
+    "Looter",
+    "2 Fungi Beasts"
+  ],
+  "metric_potions_floor_spawned": [],
+  "daily_mods": [],
+  "metric_campfire_choices": [],
+  "is_ascension_mode": true,
+  "metric_items_purchased": [],
+  "is_endless_mode": false,
+  "merchant_seed_count": 0,
+  "floor_num": 3,
+  "uncommon_relics": [
+    "The Courier",
+    "Letter Opener",
+    "Question Card",
+    "Toxic Egg 2",
+    "HornCleat",
+    "InkBottle",
+    "Ornamental Fan",
+    "Darkstone Periapt",
+    "Molten Egg 2",
+    "Singing Bowl",
+    "Sundial",
+    "Pear",
+    "Pantograph",
+    "Gremlin Horn",
+    "Bottled Tornado",
+    "White Beast Statue",
+    "Bottled Flame",
+    "Blue Candle",
+    "Mummified Hand",
+    "Mercury Hourglass",
+    "Meat on the Bone",
+    "Matryoshka",
+    "Kunai",
+    "Bottled Lightning",
+    "Eternal Feather",
+    "Frozen Egg 2",
+    "Shuriken"
+  ],
+  "post_combat": false,
+  "combo": false,
+  "relics": [
+    "PureWater",
+    "Boot"
+  ],
+  "rare_relics": [
+    "Dead Branch",
+    "Bird Faced Urn",
+    "Torii",
+    "Shovel",
+    "Unceasing Top",
+    "Turnip",
+    "Du-Vu Doll",
+    "Thread and Needle",
+    "Ginger",
+    "Gambling Chip",
+    "TungstenRod",
+    "FossilizedHelix",
+    "StoneCalendar",
+    "GoldenEye",
+    "WingedGreaves",
+    "Ice Cream",
+    "Girya",
+    "Mango",
+    "Prayer Wheel",
+    "Calipers",
+    "Pocketwatch",
+    "Old Coin",
+    "CaptainsWheel",
+    "Lizard Tail",
+    "Peace Pipe",
+    "Incense Burner"
+  ],
+  "level_name": "Exordium",
+  "metric_campfire_rested": 0,
+  "max_orbs": 0,
+  "boss": "The Guardian",
+  "seed": 5385244988820766999,
+  "metric_current_hp_per_floor": [
+    72,
+    72
+  ],
+  "current_health": 72,
+  "common_relics": [
+    "Whetstone",
+    "Orichalcum",
+    "Oddly Smooth Stone",
+    "War Paint",
+    "MawBank",
+    "Vajra",
+    "Omamori",
+    "Tiny Chest",
+    "Blood Vial",
+    "Bronze Scales",
+    "Happy Flower",
+    "Bag of Marbles",
+    "Nunchaku",
+    "Dream Catcher",
+    "Smiling Mask",
+    "Juzu Bracelet",
+    "Anchor",
+    "Strawberry",
+    "Toy Ornithopter",
+    "Art of War",
+    "Potion Belt",
+    "Centennial Puzzle",
+    "Pen Nib",
+    "MealTicket",
+    "Regal Pillow",
+    "Damaru",
+    "Lantern",
+    "Bag of Preparation",
+    "Ancient Tea Set",
+    "PreservedInsect"
+  ],
+  "monsters_killed": 1,
+  "gold": 117,
+  "neow_bonus": "RANDOM_COMMON_RELIC",
+  "card_random_seed_count": 0,
+  "card_seed_count": 9,
+  "is_daily": false,
+  "metric_campfire_rituals": 0,
+  "metric_card_choices": [
+    {
+      "not_picked": [
+        "Crescendo",
+        "Halt"
+      ],
+      "picked": "Vengeance",
+      "floor": 1
+    }
+  ],
+  "metric_potions_obtained": [],
+  "is_final_act_on": true,
+  "treasure_seed_count": 1,
+  "metric_event_choices": [
+    {
+      "damage_healed": 0,
+      "gold_gain": 0,
+      "player_choice": "Bought 0 Potions",
+      "damage_taken": 0,
+      "max_hp_gain": 0,
+      "max_hp_loss": 0,
+      "event_name": "The Woman in Blue",
+      "floor": 2,
+      "gold_loss": 0
+    }
+  ],
+  "current_room": "com.megacrit.cardcrawl.rooms.EventRoom",
+  "has_emerald_key": false,
+  "boss_relics": [
+    "VioletLotus",
+    "Fusion Hammer",
+    "Astrolabe",
+    "Pandora\u0027s Box",
+    "Runic Pyramid",
+    "Cursed Key",
+    "Busted Crown",
+    "Runic Dome",
+    "Ectoplasm",
+    "Velvet Choker",
+    "Black Star",
+    "Calling Bell",
+    "Philosopher\u0027s Stone",
+    "SacredBark",
+    "Tiny House",
+    "Snecko Eye",
+    "SlaversCollar",
+    "HolyWater",
+    "Sozu",
+    "Coffee Dripper",
+    "Empty Cage"
+  ],
+  "blue": 0,
+  "path_y": [
+    0,
+    1,
+    2
+  ],
+  "path_x": [
+    3,
+    3,
+    4
+  ],
+  "metric_item_purchase_floors": [],
+  "gold_gained": 18,
+  "ascension_level": 2,
+  "one_time_event_list": [
+    "Accursed Blacksmith",
+    "Bonfire Elementals",
+    "Designer",
+    "Duplicator",
+    "FaceTrader",
+    "Fountain of Cleansing",
+    "Knowing Skull",
+    "Lab",
+    "N\u0027loth",
+    "SecretPortal",
+    "The Joust",
+    "WeMeetAgain"
+  ],
+  "card_random_seed_randomizer": 3,
+  "metric_campfire_meditates": 0,
+  "perfect": 0,
+  "mugged": false,
+  "metric_build_version": "2022-12-18",
+  "event_list": [
+    "Big Fish",
+    "The Cleric",
+    "Dead Adventurer",
+    "Golden Idol",
+    "Golden Wing",
+    "World of Goop",
+    "Liars Game",
+    "Living Wall",
+    "Mushrooms",
+    "Scrap Ooze",
+    "Shining Light"
+  ],
+  "elite_monster_list": [
+    "Lagavulin",
+    "3 Sentries",
+    "Gremlin Nob",
+    "Lagavulin",
+    "3 Sentries",
+    "Gremlin Nob",
+    "3 Sentries",
+    "Gremlin Nob",
+    "3 Sentries",
+    "Gremlin Nob"
+  ],
+  "metric_seed_played": "5385244988820766999",
+  "red": 3,
+  "elites3_killed": 0,
+  "relic_counters": [
+    -1,
+    -1
+  ],
+  "seed_set": false,
+  "elites2_killed": 0,
+  "metric_items_purged_floors": [],
+  "potion_seed_count": 1,
+  "blights": [],
+  "elites1_killed": 0,
+  "overkill": false,
+  "neow_cost": "NONE",
+  "metric_floor_reached": 3,
+  "champions": 0,
+  "smoked": false,
+  "spirit_count": 0,
+  "special_seed": 0,
+  "potion_chance": 10,
+  "shop_relics": [
+    "Medical Kit",
+    "Lee\u0027s Waffle",
+    "Sling",
+    "TheAbacus",
+    "Membership Card",
+    "Melange",
+    "Frozen Eye",
+    "Chemical X",
+    "ClockworkSouvenir",
+    "Orrery",
+    "HandDrill",
+    "Cauldron",
+    "OrangePellets",
+    "Toolbox",
+    "PrismaticShard",
+    "Strange Spoon",
+    "DollysMirror"
+  ],
+  "custom_mods": [],
+  "metric_path_taken": [
+    "M",
+    "?",
+    "?"
+  ],
+  "name": "Rayman",
+  "has_ruby_key": false,
+  "metric_playtime": 47,
+  "has_sapphire_key": false,
+  "is_trial": false,
+  "metric_max_hp_per_floor": [
+    72,
+    72
+  ],
+  "save_date": 1730054769165,
+  "cards": [
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Strike_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Strike_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Strike_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Strike_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Defend_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Defend_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Defend_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Defend_P"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Eruption"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Vigilance"
+    },
+    {
+      "upgrades": 0,
+      "misc": 0,
+      "id": "Vengeance"
+    }
+  ],
+  "endless_increments": [],
+  "metric_items_purged": [],
+  "purgeCost": 75,
+  "room_x": 4,
+  "blight_counters": [],
+  "room_y": 2,
+  "metric_gold_per_floor": [
+    117,
+    117
+  ],
+  "metric_potions_floor_usage": [],
+  "boss_list": [
+    "The Guardian",
+    "Slime Boss",
+    "Hexaghost"
+  ],
+  "ai_seed_count": 0,
+  "event_chances": [
+    0.1,
+    0.2,
+    0.06,
+    0.04
+  ],
+  "metric_boss_relics": [],
+  "relic_seed_count": 5,
+  "act_num": 1,
+  "metric_damage_taken": [
+    {
+      "damage": 0,
+      "enemies": "Small Slimes",
+      "floor": 1,
+      "turns": 2
+    }
+  ],
+  "green": 0,
+  "mystery_machine": 2,
+  "metric_campfire_upgraded": 0,
+  "potion_slots": 3,
+  "chose_neow_reward": false,
+  "event_seed_count": 1,
+  "metric_relics_obtained": [],
+  "daily_date": 0,
+  "obtained_cards": {
+    "Vengeance": 1
+  },
+  "play_time": 47,
+  "hand_size": 5,
+  "max_health": 72,
+  "monster_seed_count": 39,
+  "potions": [
+    "Potion Slot",
+    "Potion Slot",
+    "Potion Slot"
+  ]
+}

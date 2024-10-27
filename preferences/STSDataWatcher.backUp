@@ -1,6 +1,6 @@
 {
-  "TOTAL_FLOORS": "249",
-  "ENEMY_KILL": "230",
+  "TOTAL_FLOORS": "252",
+  "ENEMY_KILL": "232",
   "BOSS_KILL": "12",
   "WIN_STREAK": "1",
   "LOSE_COUNT": "4",
@@ -10,6 +10,6 @@
   "FAST_VICTORY": "3123",
   "BEST_WIN_STREAK": "1",
   "WIN_COUNT": "2",
-  "ASCENSION_LEVEL": "1",
-  "LAST_ASCENSION_LEVEL": "1"
+  "ASCENSION_LEVEL": "2",
+  "LAST_ASCENSION_LEVEL": "2"
 }
