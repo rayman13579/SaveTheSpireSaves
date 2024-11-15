@@ -1,14 +1,1 @@
-{
-  "alias": "bk8dx91xo3fjh61g",
-  "name": "Rayman",
-  "IRONCLAD_SPIRITS": "1",
-  "IRONCLAD_WIN": "True",
-  "THE_SILENT_SPIRITS": "1",
-  "DEFECT_SPIRITS": "1",
-  "WATCHER_SPIRITS": "0",
-  "NOTE_CARD": "Strike_G",
-  "NOTE_UPGRADE": "0",
-  "THE_SILENT_WIN": "True",
-  "DEFECT_WIN": "True",
-  "DMG_DEALT": "822"
-}
+{"alias":"bk8dx91xo3fjh61g","name":"Rayman","IRONCLAD_SPIRITS":"1","IRONCLAD_WIN":"True","THE_SILENT_SPIRITS":"1","DEFECT_SPIRITS":"1","WATCHER_SPIRITS":"1","NOTE_CARD":"Strike_G","NOTE_UPGRADE":"0","THE_SILENT_WIN":"True","DEFECT_WIN":"True","DMG_DEALT":"822"}
