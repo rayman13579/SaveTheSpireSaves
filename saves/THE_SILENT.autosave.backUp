@@ -19,6 +19,7 @@
   ],
   "basemod:mod_saves": {},
   "monster_list": [
+    "Red Slaver",
     "Exordium Wildlife",
     "Large Slime",
     "Exordium Thugs",
@@ -73,8 +74,15 @@
     "Noxious Fumes"
   ],
   "is_endless_mode": false,
+  "combat_rewards": [
+    {
+      "type": "GOLD",
+      "amount": 11,
+      "bonusGold": 0
+    }
+  ],
   "merchant_seed_count": 32,
-  "floor_num": 15,
+  "floor_num": 14,
   "uncommon_relics": [
     "Letter Opener",
     "The Courier",
@@ -103,7 +111,7 @@
     "Meat on the Bone",
     "Ninja Scroll"
   ],
-  "post_combat": false,
+  "post_combat": true,
   "combo": false,
   "relics": [
     "Ring of the Snake",
@@ -188,7 +196,6 @@
     50,
     50,
     42,
-    24,
     24
   ],
   "current_health": 24,
@@ -225,10 +232,10 @@
     "Whetstone"
   ],
   "monsters_killed": 5,
-  "gold": 184,
+  "gold": 173,
   "neow_bonus": "THREE_ENEMY_KILL",
   "card_random_seed_count": 0,
-  "card_seed_count": 94,
+  "card_seed_count": 85,
   "is_daily": false,
   "metric_campfire_rituals": 0,
   "metric_card_choices": [
@@ -287,15 +294,6 @@
       ],
       "picked": "Well Laid Plans",
       "floor": 13
-    },
-    {
-      "not_picked": [
-        "Dodge and Roll",
-        "Deflect",
-        "PiercingWail"
-      ],
-      "picked": "SKIP",
-      "floor": 14
     }
   ],
   "metric_potions_obtained": [
@@ -344,7 +342,7 @@
       "gold_loss": 0
     }
   ],
-  "current_room": "com.megacrit.cardcrawl.rooms.RestRoom",
+  "current_room": "com.megacrit.cardcrawl.rooms.MonsterRoom",
   "has_emerald_key": false,
   "basemod:event_saves": [
     "Liars Game"
@@ -387,8 +385,7 @@
     10,
     11,
     12,
-    13,
-    14
+    13
   ],
   "path_x": [
     6,
@@ -404,14 +401,13 @@
     6,
     6,
     6,
-    6,
     6
   ],
   "metric_item_purchase_floors": [
     2,
     3
   ],
-  "gold_gained": 162,
+  "gold_gained": 151,
   "ascension_level": 3,
   "one_time_event_list": [
     "Accursed Blacksmith",
@@ -428,7 +424,7 @@
     "WeMeetAgain",
     "The Woman in Blue"
   ],
-  "card_random_seed_randomizer": 1,
+  "card_random_seed_randomizer": 4,
   "metric_campfire_meditates": 0,
   "perfect": 0,
   "mugged": false,
@@ -473,7 +469,7 @@
   "elites1_killed": 3,
   "overkill": false,
   "neow_cost": "NONE",
-  "metric_floor_reached": 15,
+  "metric_floor_reached": 14,
   "champions": 1,
   "smoked": false,
   "spirit_count": 0,
@@ -511,12 +507,11 @@
     "?",
     "M",
     "E",
-    "M",
-    "R"
+    "M"
   ],
   "name": "Rayman",
   "has_ruby_key": false,
-  "metric_playtime": 518,
+  "metric_playtime": 513,
   "basemod:max_hand_size": 10,
   "has_sapphire_key": false,
   "is_trial": false,
@@ -533,10 +528,9 @@
     70,
     70,
     70,
-    70,
     70
   ],
-  "save_date": 1734088081756,
+  "save_date": 1734088077035,
   "cards": [
     {
       "upgrades": 0,
@@ -649,7 +643,7 @@
   "purgeCost": 75,
   "room_x": 6,
   "blight_counters": [],
-  "room_y": 14,
+  "room_y": 13,
   "metric_gold_per_floor": [
     116,
     76,
@@ -663,8 +657,7 @@
     130,
     130,
     148,
-    173,
-    184
+    173
   ],
   "metric_potions_floor_usage": [
     13
@@ -676,10 +669,10 @@
   ],
   "ai_seed_count": 0,
   "event_chances": [
+    0.2,
     0.3,
-    0.4,
-    0.089999996,
-    0.08
+    0.06,
+    0.06
   ],
   "metric_boss_relics": [],
   "relic_seed_count": 8,
@@ -770,7 +763,7 @@
     "Cloak And Dagger": 1,
     "Acrobatics": 1
   },
-  "play_time": 518,
+  "play_time": 513,
   "hand_size": 5,
   "max_health": 70,
   "monster_seed_count": 33,
