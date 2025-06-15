@@ -6,8 +6,7 @@
     "M",
     "?",
     "M",
-    "M",
-    "E"
+    "M"
   ],
   "basemod:mod_saves": {},
   "monster_list": [
@@ -47,22 +46,10 @@
   "is_ascension_mode": true,
   "metric_items_purchased": [],
   "is_endless_mode": false,
-  "combat_rewards": [
-    {
-      "type": "GOLD",
-      "amount": 35,
-      "bonusGold": 0
-    },
-    {
-      "type": "RELIC",
-      "id": "Letter Opener",
-      "amount": 0,
-      "bonusGold": 0
-    }
-  ],
   "merchant_seed_count": 0,
   "floor_num": 6,
   "uncommon_relics": [
+    "Letter Opener",
     "Blue Candle",
     "TeardropLocket",
     "Pear",
@@ -93,7 +80,7 @@
     "Shuriken",
     "Bottled Tornado"
   ],
-  "post_combat": true,
+  "post_combat": false,
   "combo": false,
   "relics": [
     "Snecko Eye",
@@ -245,7 +232,7 @@
     }
   ],
   "is_final_act_on": true,
-  "treasure_seed_count": 5,
+  "treasure_seed_count": 4,
   "metric_event_choices": [
     {
       "damage_healed": 0,
@@ -362,17 +349,17 @@
   "seed_set": false,
   "elites2_killed": 0,
   "metric_items_purged_floors": [],
-  "potion_seed_count": 7,
+  "potion_seed_count": 6,
   "blights": [],
-  "elites1_killed": 1,
+  "elites1_killed": 0,
   "overkill": false,
   "neow_cost": "NONE",
   "metric_floor_reached": 6,
-  "champions": 1,
+  "champions": 0,
   "smoked": false,
   "spirit_count": 0,
   "special_seed": 0,
-  "potion_chance": 30,
+  "potion_chance": 20,
   "shop_relics": [
     "Chemical X",
     "Strange Spoon",
@@ -403,7 +390,7 @@
   ],
   "name": "Rayman",
   "has_ruby_key": false,
-  "metric_playtime": 361,
+  "metric_playtime": 313,
   "basemod:max_hand_size": 10,
   "has_sapphire_key": false,
   "is_trial": false,
@@ -414,7 +401,7 @@
     72,
     72
   ],
-  "save_date": 1749979399479,
+  "save_date": 1749979351462,
   "cards": [
     {
       "upgrades": 0,
@@ -503,13 +490,13 @@
   ],
   "ai_seed_count": 0,
   "event_chances": [
-    0.0,
     0.1,
-    0.03,
-    0.02
+    0.2,
+    0.06,
+    0.04
   ],
   "metric_boss_relics": [],
-  "relic_seed_count": 6,
+  "relic_seed_count": 5,
   "act_num": 1,
   "metric_damage_taken": [
     {
@@ -535,12 +522,6 @@
       "enemies": "2 Fungi Beasts",
       "floor": 5,
       "turns": 3
-    },
-    {
-      "damage": 0,
-      "enemies": "Gremlin Nob",
-      "floor": 6,
-      "turns": 3
     }
   ],
   "green": 0,
@@ -556,7 +537,7 @@
     "FollowUp": 1,
     "Crescendo": 1
   },
-  "play_time": 361,
+  "play_time": 313,
   "hand_size": 7,
   "max_health": 72,
   "monster_seed_count": 39,
